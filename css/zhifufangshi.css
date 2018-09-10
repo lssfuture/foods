@@ -1,0 +1,180 @@
+/*
+* @Author: 我的文档
+* @Date:   2018-08-14 16:43:07
+* @Last Modified by:   我的文档
+* @Last Modified time: 2018-08-15 15:03:42
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "苹方";
+	background-repeat: no-repeat;
+	font-weight: normal;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+header{
+	height: 6.12rem;
+	width: 100%;
+	background-color: #0ecf98;
+}
+header .top{
+	height: 0.85rem;
+}
+header .top .left{
+	width: 1.05rem;
+	height: 0.85rem;
+	background-image: url('../img/images2/images/fanhui.png');
+	background-repeat: no-repeat;
+	background-size: 1.05rem 0.85rem;
+	float: left;
+}
+header .top .center{
+	width: 5.4rem;
+	height: 0.85rem;
+	float: left;
+	font-size: 0.38rem;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	line-height: 0.85rem;
+}
+header .dizhi {
+	width: 7rem;
+	height: 2.07rem;
+	margin-left: 0.25rem;
+}
+header .dizhi .yi{
+	height: 0.68rem;
+}
+header .dizhi .yi h6{
+	font-size: 0.28rem;
+	color: #fff;
+	line-height: 0.68rem;	
+	float: left;
+}
+header .dizhi .yi .jia{
+	width: 0.53rem;
+	height: 0.22rem;
+	border: 0.01rem solid #fff;
+	font-size: 0.18rem;
+	border-radius: 0.2rem;
+	line-height: 0.22rem;
+	text-align: center;
+	float: left;
+	margin-top: 0.24rem;
+	margin-left: 0.22rem;
+	color: #fff;
+}
+header .dizhi h1{
+	font-size: 0.38rem;
+	color: #fff;
+}
+header .dizhi h5{
+	font-size: 0.32rem;
+	margin-top: 0.16rem;
+	color: #fff;
+}
+header .time{
+	width: 7rem;
+	height: 2.12rem;
+	margin-left: 0.25rem;
+	background-color: #fff;
+	border-radius: 0.2rem;
+}
+header .time .top{
+	width: 6.58rem;
+	height: 1.2rem;
+	border-bottom: 0.01rem dashed #aca9a9;
+	margin: 0 auto;
+}
+header .time .top .le{
+	width: 3.70rem;
+	padding-top: 0.22rem;
+	float: left;
+}
+header .time .top .le p{
+	font-size: 0.34rem;
+	font-weight: bold;
+	color: #545454;
+}
+header .time .top .le h6{
+	font-size: 0.2rem;
+	color: #ff9d90;
+}
+header .time .top .you{
+	width: 2.88rem;
+	font-size: 0.28rem;
+	color: #ff9e91;
+	line-height: 1.2rem;
+	float: left;
+}
+header .time .bottom p{
+	font-size: 0.34rem;
+	color: #545454;
+	font-weight: bold;
+	float: left;
+	line-height: 0.92rem;
+	margin-left: 0.21rem;
+}
+header .time .bottom h5{
+	font-size: 0.28rem;
+	color: #ff9e91;
+	font-weight: bold;
+	float: right;
+	line-height: 0.92rem;
+	margin-right: 0.21rem;
+}
+.list{
+	height: 7.42rem;
+	width: 7rem;
+	margin-left: 0.25rem;
+	border-radius: 0.2rem;
+	margin-top: -0.76rem;
+	margin-bottom: 0.24rem;
+	background-color: #fff;
+	box-shadow: 0 0.01rem 0.2rem 0.01rem #c9c9c9;
+}
+.list ul li:nth-child(1){
+	height: 1.02rem;
+	width: 6.58rem;
+	margin: 0 auto;
+	font-size: 0.34rem;
+	font-weight: bold;
+	color: #545454;
+	text-align: center;
+	line-height: 1.02rem;
+	border: 0;
+}
+.list ul li{
+	height: 1.27rem;
+	width: 6.58rem;
+	margin: 0 auto;
+	border-top: 0.01rem dashed #aca9a9;
+}
+.list ul li img{
+	height: 1.2rem;
+	width: 0.9rem;
+	float: left;
+	margin-top: 0.02rem;
+}
+.list ul li p{
+	font-size: 0.28rem;
+	color: #545454;
+	float: left;
+	line-height: 1.27rem;
+}
+.list ul li i{
+	float: right;
+	color: #eeeeee;
+	font-size: 0.4rem;
+	line-height: 1.27rem;
+}
+.list ul li:nth-child(5) i{
+	color: #2bd5a5;
+}

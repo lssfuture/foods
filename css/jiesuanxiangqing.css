@@ -1,0 +1,348 @@
+/*
+* @Author: 我的文档
+* @Date:   2018-08-09 09:29:33
+* @Last Modified by:   我的文档
+* @Last Modified time: 2018-09-10 17:41:56
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "苹方";
+	background-repeat: no-repeat;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+header{
+	width: 100%;
+	height: 2.25rem;
+	background-color: #0ecf98;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+header .left{
+	width: 1.05rem;
+	height: 100%;
+	background-image: url('../img/images2/images/fanhui.png');
+	background-repeat: no-repeat;
+	background-size: 1.05rem 0.85rem;
+	float: left;
+}
+header .center{
+	width: 5.5rem;
+	height: 100%;
+	float: left;
+}
+header .right{
+	width: 0.95rem;
+	height: 100%;
+	background-image: url('../img/images2/images/sousuo.png');
+	background-repeat: no-repeat;
+	background-size: 0.95rem 0.85rem;
+	float: left;
+}
+header .center .pic{
+	width: 1.84rem;
+	height: 100%;
+	background-image: url('../img/images2/images/pic.png');
+	background-size: 1.84rem 2.25rem;
+	float: left;
+}
+header .center .wz{
+	width: 3.36rem;
+	height: 1.38rem;
+	margin-top: 0.52rem;
+	float: left;
+}
+header .center .wz p{
+	font-size: 0.3rem;
+	color: #fff;
+	font-weight: bold;
+}
+header .center .wz h6{
+	font-size: 0.2rem;
+	color: #fff;
+	font-weight: normal;
+	margin-top: 0.03rem;
+}
+ .huodong{
+	width: 100%;
+	height: 0.48rem;
+	background-color: #f9e560;
+	font-size: 0.24rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.48rem;
+	position: fixed;
+	top: 2.25rem;
+	left: 0;
+}
+.daohang{
+	width: 100%;
+	height: 0.94rem;
+	background-color: #fff;
+	box-shadow: 0 0.01rem  0.05rem #888787;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	top: 2.73rem;
+	left: 0;
+}
+.daohang .fl{
+	width: 2.22rem;
+	height: 100%;
+	color: #545454;
+	text-align: center;
+	line-height: 1rem;
+	font-size: 0.32rem;
+}
+.daohang .dingcan{
+	color: #0ecf98;
+}
+nav{
+	width: 7.5rem;
+	height: calc(100%-465);
+	margin-top: 0.06rem;
+	position: fixed;
+	top: 3.67rem;
+	left: 0;
+}
+nav .list {
+	width: 2.14rem;
+	height:9.71rem;
+	overflow: hidden; 
+	float: left;
+}
+nav .list ul li{
+	width: 2.13rem;
+	height:1.1rem;
+	background-color: #f7f7f7;
+	font-size: 0.28rem;
+	color: #545454;
+	text-align: center;
+	line-height: 1.1rem; 
+}
+nav .list ul li:nth-child(2){
+	background-color: #0ecf98;
+}
+nav .content{
+	width: 5.36rem;
+	height: 8.5rem;
+	float: left;
+	overflow: scroll;
+}
+nav .content ul li{
+	width: 4.87rem;
+	height: 2.12rem;
+	margin-top: 0.24rem;
+	margin-left: 0.24rem;
+	background-color: #fff;
+	box-shadow: 0  0.02rem  0.09rem  0.03rem  #c2c1c1;
+}
+nav .content ul li .pic{
+	width: 1.5rem;
+	height: 100%;
+	background-image: url('../img/images2/images/pic1.png');
+	background-size: 1.5rem 2.12rem; 
+	float: left;
+}
+nav .content ul li .pic2{
+	width: 1.5rem;
+	height: 100%;
+	background-image: url('../img/images2/images/pic2.png');
+	background-size: 1.5rem 2.12rem; 
+	float: left;
+}
+nav .content ul li .pic3{
+	width: 1.5rem;
+	height: 100%;
+	background-image: url('../img/images2/images/pic3.png');
+	background-size: 1.5rem 2.12rem; 
+	float: left;
+}
+nav .content ul li .pic4{
+	width: 1.5rem;
+	height: 100%;
+	background-image: url('../img/images2/images/pic4.png');
+	background-size: 1.5rem 2.12rem; 
+	float: left;
+}
+nav .content ul li .wenzi{
+	width: 3.37rem;
+	height: 1.85rem;
+	margin-top: 0.15rem;
+	float: left;
+}
+nav .content ul li .wenzi h1{
+	font-size: 0.28rem;
+	font-weight: bold;
+}
+nav .content ul li .wenzi h1 a{
+	color: #000;
+}
+nav .content ul li .wenzi h2{
+	font-size: 0.22rem;
+	font-weight:normal;
+	margin-top: 0.02rem;
+}
+nav .content ul li .wenzi h3{
+	font-size: 0.20rem;
+	font-weight:normal;
+	margin-top: 0.02rem;
+}
+nav .content ul li .wenzi .si{
+	height: 0.28rem;
+	margin-top: 0.02rem;
+}
+nav .content ul li .wenzi .si .zhe{
+	width: 0.56rem;
+	height: 0.24rem;
+	border: 0.01rem solid #0ecf98;
+	font-size: 0.18rem;
+	font-weight:lighter;
+	text-align: center;
+	line-height: 0.24rem;
+	color: #0ecf98;
+	float: left;
+}
+nav .content ul li .wenzi .si h4{
+	font-size: 0.18rem;
+	font-weight: lighter;
+	color: #0ecf98;
+	float: left;
+	margin-left: 0.06rem;
+}
+nav .content ul li .wenzi .wu h5{
+	font-size: 0.38rem;
+	color: #0ecf98;
+	font-weight: bolder;
+	float: left;
+	margin-top: 0.01rem;
+}
+nav .content ul li .wenzi .wu img{
+	float: right;
+	width: 0.41rem;
+	height: 0.41rem;
+	margin-top: 0.08rem;
+	margin-right: 0.1rem;
+}
+.bottom{
+
+	width: 100%;
+	height: 1rem;
+	margin-top: 0.27rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+}
+.bottom .pic{
+	width: 1.09rem;
+	height: 1.11rem;
+	position: absolute;
+	top: -0.3rem;
+	left: 0.21rem;
+	background-image: url('../img/images2/images/gouwuche.png');
+	background-size: 1.09rem 1.11rem;
+	float: left;
+}
+.bottom .weixuan{
+	margin-left: 1.47rem;
+	float: left;
+}
+.bottom .weixuan h1{
+	font-size: 0.24rem;
+	font-weight: normal;
+	color: #6b6b6b;
+}
+.bottom .qisong{
+	width: 2.05rem;
+	height: 0.6rem;
+	border-radius: 0.3rem;
+	background-color:#6b6b6b;
+	margin-left: 5.2rem;
+	font-size: 0.3rem;
+	
+	text-align: center;
+	line-height: 0.6rem;
+	margin-top: 0.1rem;
+}
+.bottom .qisong a{
+	color: #fff;
+}
+.mask{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.mask .upper{
+	width: 5.48rem;
+	height: 5.61rem;
+	background: #0ecf98;
+	margin-top: 3.5rem;
+	margin-left: 1rem;
+	border-radius: 0.6rem;
+	overflow: hidden;
+}
+.mask .upper .tu{
+	width: 100%;
+	height: 3.62rem;
+	border-radius: 0.6rem 0.6rem 0 0;
+	background-color: #fff;
+	background-image: url('../img/images2/images/1.png');
+	background-size: 5.48rem 3.62rem;
+}
+/* .mask .upper .tu p{
+	font-size: 
+} */
+.mask .upper .xia{
+	width: 100%;
+	height: 1.99rem;
+	border-radius: 0 0 0.6rem 0.6rem;
+}
+.mask .upper .xia p{
+	font-size: 0.28rem;
+	font-weight: bold;
+	margin-left: 0.32rem;
+	margin-top: 0.2rem;
+}
+.mask .upper .xia h6{
+	font-size: 0.22rem;
+	color: #363636;
+	margin-left: 0.32rem;
+}
+.mask .upper .xia h5{
+	font-size: 0.38rem;
+	font-weight: bold;
+	color: #fff;
+	margin-left: 0.32rem;
+	margin-top: 0.2rem;
+	float: left;
+}
+.mask .upper .xia .q{
+	width: 1.56rem;
+	height: 0.56rem;
+	border-radius: 0.3rem;
+	background-color: #fff;
+	font-size: 0.26rem;
+	font-weight: bold;
+	color: #0ecf98;
+	text-align: center;
+	line-height: 0.56rem;
+	float: right;
+	margin-right: 0.32rem;
+	margin-top: 0.2rem;
+}

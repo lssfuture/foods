@@ -1,0 +1,63 @@
+/*
+* @Author: 我的文档
+* @Date:   2018-08-15 11:23:13
+* @Last Modified by:   我的文档
+* @Last Modified time: 2018-08-15 12:24:51
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "苹方";
+	background-repeat: no-repeat;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+.beijing{
+	width: 100%;
+	height: 13rem;
+	background-image: url('../img/images5/images/8.png');
+	background-size: 100% 13rem;
+	overflow: hidden;
+}
+.beijing p{
+	font-size: 0.71rem;
+	color: #ed61b3;
+	font-weight: bold;
+	margin-top: 7.1rem;
+	margin-left: 3rem;
+}
+.beijing .yi{
+	width: 4.62rem;
+	height: 0.67rem;
+	margin: 0 auto;
+	margin-top: 3.2rem;
+}
+.beijing .yi .left{
+	width: 1.94rem;
+	height: 0.65rem;
+	border-radius: 0.4rem;
+	background-image: url('../img/images5/images/9.png');
+	background-position: center;
+	font-size: 0.28rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.65rem;
+	float: left;
+}
+.beijing .yi .right{
+	width: 1.94rem;
+	height: 0.65rem;
+	border-radius: 0.4rem;
+	background-image: url('../img/images5/images/10.png');
+	background-position: center;
+	font-size: 0.28rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.65rem;
+	float: right;
+}

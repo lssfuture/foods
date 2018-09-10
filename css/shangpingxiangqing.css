@@ -1,0 +1,306 @@
+/*
+* @Author: 我的文档
+* @Date:   2018-08-11 20:58:47
+* @Last Modified by:   我的文档
+* @Last Modified time: 2018-09-10 17:42:20
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "苹方";
+	background-repeat: no-repeat;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+header{
+	width: 100%;
+	overflow: hidden;
+}
+header .beijing{
+	width: 100%;
+	height: 2.25rem;
+	background-color: #0ecf98;
+}
+header .beijing .left{
+	width: 1.05rem;
+	height: 0.85rem;
+	background-image: url('../img/images2/images/fanhui.png');
+	background-repeat: no-repeat;
+	background-size: 1.05rem 0.85rem;
+	float: left;
+}
+header .beijing .center{
+	width: 5.4rem;
+	height: 100%;
+	float: left;
+	font-size: 0.38rem;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	line-height: 0.85rem;
+}
+header .beijing .right{
+	width: 1.05rem;
+	height: 0.85rem;
+	background-image: url('../img/images2/images/sousuo.png');
+	background-repeat: no-repeat;
+	background-size: 0.95rem 0.85rem;
+	float: right;
+}
+header .pic{
+	width: 100%;
+	height: 2.8rem;
+	background-image: url('../img/images3/images/1.png');
+	background-size: 7rem 2.8rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: -1.2rem;
+}
+header .yi{
+	width: 100%;
+	height: 0.78rem;
+	padding-left: 0.25rem;
+}
+header .yi p{
+	font-size: 0.38rem;
+	color: #545454;
+	font-weight: bold;
+	line-height: 0.78rem;
+	float: left;
+}
+header .yi .zhe{
+	width: 1.02rem;
+	height: 0.32rem;
+	border: 0.01rem solid #0ecf98;
+	margin-top: 0.26rem;
+	margin-left: 0.4rem;
+	border-radius: 0.2rem;
+	float: left;
+	font-size: 0.24rem;
+	color: #545454;
+	font-weight: normal;
+	text-align: center;
+}
+header .yi .xian{
+	width: 1.36rem;
+	height: 0.32rem;
+	border: 0.01rem solid #0ecf98;
+	margin-top: 0.26rem;
+	margin-left: 0.12rem;
+	border-radius: 0.2rem;
+	float: left;
+	font-size: 0.24rem;
+	color: #545454;
+	font-weight: normal;
+	text-align: center;
+}
+header .er p{
+	font-size: 0.24rem;
+	margin-left: 0.25rem;
+	float: left;
+}
+header .er h1{
+	font-size: 0.38rem;
+	font-weight: bold;
+	color: #0ecf98;
+	float: right;
+	margin-right: 0.25rem;
+	margin-top: -0.1rem;
+}
+.pingjia{
+	width: 7rem;
+	margin-left: 0.25rem;
+}
+.pingjia .title{
+	width: 100%;
+	height: 1.48rem;
+}
+.pingjia .title .left{
+	width: 5.44rem;
+	height: 1.48rem;
+	float: left;
+}
+.pingjia .title .left p{
+	font-size: 0.36rem;
+	margin-top: 0.3rem;
+	color: #545454;
+}
+.pingjia .title .left h6{
+	font-size: 0.22rem;
+	color: #0ecf98;
+}
+.pingjia .title .right{
+	float: left;
+	width: 1.56rem;
+	height: 0.4rem;
+	background-color: #0ecf98;
+	border-radius: 0.2rem;
+	margin-top: 0.35rem;
+	font-size: 0.26rem;
+	text-align: center;
+	line-height: 0.4rem;
+	color: #fff;
+}
+.pingjia .neirong{
+	width: 100%;
+	height: 2.24rem;
+}
+.pingjia .neirong .top{
+	width: 100%;
+	height: 1.04rem;
+}
+.pingjia .neirong .top .left{
+	width: 1.04rem;
+	height: 100%;
+	background-image: url('../img/images3/images/touxiang (2).png');
+	background-size: 1.04rem 1.04rem;
+	float: left;
+}
+.pingjia .neirong .top .center{
+	width: 4.7rem;
+	height: 100%;
+	padding-left: 0.24rem;
+	float: left;
+}
+.pingjia .neirong .top .center p{
+	font-size: 0.28rem;
+	font-weight: bold;
+	color: #545454;
+	margin-top: 0.2rem;
+}
+.pingjia .neirong .top .center h5{
+	font-size: 0.24rem;
+	font-weight: normal;
+	color: #545454;
+}
+.pingjia .neirong .top .right{
+	width: 0.96rem;
+	height: 100%;
+	font-weight: lighter;
+	font-size: 0.22rem;
+	color: #545454;
+	margin-top: 0.2rem;
+	float: left;
+}
+.pingjia .neirong .nr{
+	height: 0.98rem;
+	width: 100%;
+	margin-top: 0.24rem;
+	background-color: #eae6e6;
+	border-radius: 0.2rem;
+	font-size: 0.24rem;
+	font-weight: normal;
+	text-align: center;
+	line-height: 0.98rem;
+	color: #545454;
+}
+.tuijian{
+	width: 7rem;
+	margin-left: 0.25rem;
+}
+.tuijian .title{
+	width: 100%;
+	height: 1.2rem;
+}
+.tuijian .title p{
+	font-size: 0.36rem;
+	color: #545454;
+	margin-top: 0.3rem;
+}
+.tuijian .title h6{
+	font-size: 0.22rem;
+	color: #0ecf98;
+}
+.tuijian .neirong{
+	height: 7.94rem;
+	margin-bottom: 0.3rem;
+}
+.tuijian .neirong ul li{
+	width: 3.35rem;
+	height: 3.52rem;
+	background-color: #fff;
+	box-shadow: 0 0.01rem 0.2rem 0.01rem #efefef;
+	float: left;
+	margin-bottom: 0.28rem;
+}
+.tuijian .neirong ul li:nth-child(2){
+	margin-left: 0.28rem;
+}
+.tuijian .neirong ul li:nth-child(4){
+	margin-left: 0.28rem;
+}
+.tuijian .neirong ul li .pic{
+	width: 3.35rem;
+	height: 2.23rem;
+}
+.tuijian .neirong ul li .pic img{
+	width: 3.35rem;
+	height: 2.23rem
+}
+.tuijian .neirong .wz p{
+	font-size: 0.28rem;
+	color: #282727;
+	text-align: center;
+}
+.tuijian .neirong .wz h6{
+	font-size: 0.18rem;
+	color: #282727;
+	text-align: center;
+	font-weight: lighter;
+}
+.tuijian .neirong .wz h2{
+	font-size: 0.36rem;
+	color: #0ecf98;
+	text-align: center;
+}
+.bottom{
+
+	width: 100%;
+	height: 1rem;
+	margin-top: 0.27rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+}
+.bottom .pic{
+	width: 1.09rem;
+	height: 1.11rem;
+	position: absolute;
+	top: -0.3rem;
+	left: 0.21rem;
+	background-image: url('../img/images2/images/gouwuche.png');
+	background-size: 1.09rem 1.11rem;
+	float: left;
+}
+.bottom .weixuan{
+	margin-left: 1.47rem;
+	float: left;
+}
+.bottom .weixuan h1{
+	font-size: 0.24rem;
+	font-weight: normal;
+	color: #6b6b6b;
+}
+.bottom .qisong{
+	width: 2.05rem;
+	height: 0.6rem;
+	border-radius: 0.3rem;
+	background-color:#6b6b6b;
+	margin-left: 5.2rem;
+	font-size: 0.3rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.6rem;
+	margin-top: 0.1rem;
+}

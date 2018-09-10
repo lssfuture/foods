@@ -1,0 +1,238 @@
+/*
+* @Author: 我的文档
+* @Date:   2018-08-16 12:09:02
+* @Last Modified by:   我的文档
+* @Last Modified time: 2018-09-10 17:41:30
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "苹方";
+	background-repeat: no-repeat;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+header{
+	width: 100%;
+	height: 1rem;
+	background-color: #0ecf98;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+}
+header .left{
+	width: 1.05rem;
+	height: 1rem;
+	background-image: url('../img/images2/images/fanhui.png');
+	background-repeat: no-repeat;
+	background-size: 1.05rem 0.85rem;
+	float: left;
+}
+header .center{
+	width: 2.18rem;
+	height: 1rem;
+	margin-left: 1.5rem;
+	float: left;
+}
+header .center p{
+	font-size: 0.38rem;
+	font-weight: bold;
+	color: #fff;
+	margin-top: 0.2rem;
+	text-align: center;
+}
+header .center h5{
+	font-size: 0.22rem;
+	font-weight: lighter;
+	color: #fff;
+	text-align: center;
+	margin-top: -0.1rem;
+}
+header .right{
+	width: 0.98rem;
+	height: 1rem;
+	background-image: url('../img/images6/images/7.png');
+	background-repeat: no-repeat;
+	background-size: 0.98rem 1rem;
+	float: right;
+}
+.title{
+	width: 100%;
+	height: 1.27rem;
+	background-image: url('../img/images7/images/1_02.png');
+	background-size: 100% 1.27rem;
+	margin-top: 1rem;
+}
+.content1{
+	width: 100%;
+	height: 3.52rem;
+}
+.content1 ul li{
+	width: 2.5rem;
+	height: 3.53rem;
+	margin-left: 0.25rem;
+	background-image: url('../img/images7/images/6.png');
+	background-size: 2.5rem 3.53rem;
+	float: left;
+}
+.content1 ul li .pic{
+	width: 2.08rem;
+	height: 1.39rem;
+	margin-left: 0.21rem;
+	background-image: url('../img/images7/images/7.png');
+	background-size: 2.08rem 1.39rem;
+}
+.content1 ul li  p{
+	font-weight: bold;
+	font-size: 0.28rem;
+	text-align: center;
+	color: #000;
+	margin-top: 0.28rem;
+}
+.content1 ul li  h6{
+	font-size: 0.22rem;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+.content1 ul li  h5{
+	font-size: 0.2rem;
+	font-weight: bold;
+	color: #ff1753;
+	text-align: center;
+}
+.title2{
+	width: 100%;
+	height: 1.27rem;
+	background-image: url('../img/images7/images/2.png');
+	background-size: 100% 1.27rem;
+}
+.content2{
+	width: 100%;
+	height: 8rem;
+}
+.content2 ul li{
+	width: 7rem;
+	margin-left: 0.25rem;
+	height: 1.32rem;
+	margin-top: 0.24rem;
+	box-shadow: 0 0.04rem 0.1rem #b9fdea;
+}
+.content2 ul li .pic{
+	width: 1.71rem;
+	height: 1.32rem;
+	background-image: url('../img/images7/images/3.png');
+	background-size: 1.71rem 1.32rem;
+	float: left;
+}
+.content2 ul li:nth-child(2) .pic{
+	width: 1.71rem;
+	height: 1.32rem;
+	background-image: url('../img/images7/images/4.png');
+	background-size: 1.71rem 1.32rem;
+}
+.content2 ul li:nth-child(3) .pic{
+	width: 1.71rem;
+	height: 1.32rem;
+	background-image: url('../img/images7/images/5.png');
+	background-size: 1.71rem 1.32rem;
+}
+.content2 ul li .wz{
+	width: 3rem;
+	height: 100%;
+	float: left;
+}
+.content2 ul li .wz p{
+	font-weight: bold;
+	font-size: 0.28rem;
+	margin-top: 0.08rem;
+	color: #000;
+}
+.content2 ul li .wz h6{
+	font-weight: bold;
+	font-size: 0.18rem;
+	margin-top: 0.08rem;
+	color: #545454;;
+}
+.content2 ul li .wz h2{
+	font-weight: bold;
+	font-size: 0.26rem;
+	margin-top: 0.08rem;
+	color: #ff1753;
+}
+.content2 ul li .again{
+	width: 2.29rem;
+	height: 100%;
+	float: left;
+}
+.content2 ul li .again .top{
+	width: 1.62rem;
+	height: 0.60rem;
+	border-radius: 0.4rem;
+	box-shadow: 0 0.04rem 0.1rem #b9fdea;
+	font-size: 0.24rem;
+	font-weight: bold;
+	color: #0ecf98;
+	text-align: center;
+	line-height: 0.64rem;
+}
+.content2 ul li .again .bot{
+	width: 1.62rem;
+	height: 0.60rem;
+	border-radius: 0.4rem;
+	box-shadow: 0 0.04rem 0.1rem #b9fdea;
+	font-size: 0.24rem;
+	font-weight: bold;
+	color: #0ecf98;
+	text-align: center;
+	line-height: 0.64rem;
+}
+.bottom{
+	width: 100%;
+	height: 0.98rem;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+}
+.bottom .content{
+	width: 5.75rem;
+	height: 100%;
+	margin-left: 0.88rem;
+	display: flex;
+	justify-content: space-between;
+}
+.bottom .content .shou{
+	width: 0.44rem;
+	height: 100%;
+	background-image: url('../img/images6/images/index.png');
+	background-size: 0.44rem 0.98rem;
+}
+.bottom .content .fa{
+	width: 0.44rem;
+	height: 100%;
+	background-image: url('../img/images/fa.png');
+	background-size: 0.44rem 0.98rem;
+}
+.bottom .content .ding{
+	width: 0.44rem;
+	height: 100%;
+	background-image: url('../img/images7/images/dingdan.png');
+	background-size: 0.44rem 0.98rem;
+}
+.bottom .content .me{
+	width: 0.44rem;
+	height: 100%;
+	background-image: url('../img/images/me.png');
+	background-size: 0.44rem 0.98rem;
+}
