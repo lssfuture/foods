@@ -19,8 +19,8 @@ i{
 }
 body{
 	width: 100%;
-	height: 100%;
 	background: #fff;
+	height: 100%;
 }
 header{
 	width: 100%;
@@ -76,6 +76,12 @@ header .right{
 .content1{
 	width: 100%;
 	height: 3.52rem;
+	overflow-x:auto;
+}
+.content1 ul{
+	width: 12rem;
+	height: 100%;
+
 }
 .content1 ul li{
 	width: 2.5rem;
@@ -121,6 +127,7 @@ header .right{
 .content2{
 	width: 100%;
 	height: 8rem;
+	padding-bottom: 0.98rem;
 }
 .content2 ul li{
 	width: 7rem;

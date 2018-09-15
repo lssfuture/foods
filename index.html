@@ -2,134 +2,56 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>首页</title>
+	<title>注册</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
 	<link rel="stylesheet" href="css/rem.css">
+	<link rel="stylesheet" href="https://at.alicdn.com/t/font_793301_ssczj2jw8zn.css">
 	<link rel="stylesheet" href="css/index.css">
-	<link rel="stylesheet" href="css/swiper-4.3.5.min.css">
-
 </head>
 <body>
-	<!-- 头部搜索开始 -->
 	<header>
-		<div class="pos">太原市</div>
-		<input type="text" placeholder="搜你想搜的">
+		<input type="text"  placeholder="请输入手机号" class="phone">
+		<input type="text"  placeholder="请输入验证码" class="yanzheng">
+	    <input type="password"  placeholder="请输入密码" class="password">
+	    <div class="yanzhengma">获取验证码</div>
+		<div class="daojishi"><span>60</span>s</div>
+		<a href="denglu.html"><div class="ture">
+	    	<i class="iconfont icon-dui"></i>
+	    </div></a>
+	    <a href="denglu.html"><div class="denglu">登录</div></a>
 	</header>
-	<!-- 头部结束 -->
-	<!-- banner图开始 -->
-	<div class="banner">
-		<div class="swiper-container banner">
-    		<div class="swiper-wrapper">
-        		<div class="swiper-slide">
-        			<img src="img/images/banner1.jpg" alt="">
-        		</div>
-        		<div class="swiper-slide">
-        			<img src="img/images/banner2.jpg" alt="">
-        		</div>
-        		<div class="swiper-slide">
-        			<img src="img/images/banner3.jpg" alt="">
-        		</div>
-   		 </div>
-    <!-- 如果需要分页器 -->
-   		 <div class="swiper-pagination"></div>
-	</div>
-	<!-- banner图结束 -->
-	<!-- 导航栏开始 -->
-	<nav>
-		<main>
-			<ul>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-			<ul>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-		</main>
-	</nav>
-	<!-- 导航栏结束 -->
-	<!-- 品质优选开始 -->
-	<div class="good">
-		<img src="img/images/01_06.png" alt="">
-		<div class="content">
-			<div class="left"></div>
-			<div class="right1"></div>
-			<div class="right2"></div>
-		</div>
-	</div>
-	<!-- 品质优选结束 -->
-	<!-- 推荐商家开始 -->
-	<div class="tuijian">
-		<img src="img/images/02.png" alt="">
-		<div class="title">
-			<div class="title1"><a href="">综合排序</a></div>
-			<div class="title1"><a href="">好评优先</a></div>
-			<div class="title1"><a href="">距离最近</a></div>
-			<div class="title1"><a href="">热门推荐</a></div>
-		</div>
-		<div class="list">
-			<div class="pic"></div>
-			<div class="content">
-			<a href="shangjiaxiangqing.html">
-				<h6>肯德基宅急送（体育路店）</h6></a>
-				<div class="er">
-					<div class="star">★★★★☆ <span>4.8</span></div>
-					<div class="yue">月售3900</div>
-					<div class="time">30分钟 | 2.9km</div>
-				</div>
-				<div class="san">起送￥20  |  配送￥5  |  人均￥36</div>
-				<div class="si">
-					<div class="left">减满</div>
-					<p>满50减10，满100减20</p>
-				</div>
-			</div>
-		</div>
-		<div class="list">
-			<div class="pic2"></div>
-			<div class="content">
-				<h6>王婆大虾</h6>
-				<div class="er">
-					<div class="star">★★★★☆ <span>4.0</span></div>
-					<div class="yue">月售142</div>
-					<div class="time">15分钟 | 534km</div>
-				</div>
-				<div class="san">起送￥10  |  配送￥4  |  人均￥24</div>
-				<div class="si">
-					<div class="left">减满</div>
-					<p>满25减5，满55减8，满88减10</p>
-				</div>
-			</div>
-		</div>
-		<div class="list">
-			<div class="pic3"></div>
-			<div class="content">
-				<h6>众品味道烧烤</h6>
-				<div class="er">
-					<div class="star">★★★★☆ <span>4.9</span></div>
-					<div class="yue">月售4000</div>
-					<div class="time">20分钟 | 1.2km</div>
-				</div>
-				<div class="san">起送￥20  |  配送￥7  |  人均￥37</div>
-				<div class="si">
-					<div class="left">减满</div>
-					<p>满50减20，满100减50</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="bottom">
-		<div class="content">
-			<div class="shou"></div>
-			<div class="fa"></div>
-			<a href="dingdanxiangqing.html"><div class="ding"></div></a>
-			<a href="gerenzhongxin.html"><div class="me"></div></a>
-		</div>
-	</div>
-	<script src="js/swiper-4.3.5.min.js"></script>
-	<script src="js/index.js"></script>
 </body>
 </html>
+<script>
+	let yanzhengma=document.querySelector(".yanzhengma");
+	let ture=document.querySelector(".ture");
+	let daojishi=document.querySelector(".daojishi");
+	let span=document.querySelector("span");
+	let phone=document.querySelector(".phone");
+	let yanzheng=document.querySelector(".yanzheng");
+	let password=document.querySelector(".password");
+	console.log(phone,yanzheng,password);
+	yanzhengma.onclick=function () {
+		daojishi.style.display="block";
+    }
+    let num=span.innerHTML;
+    console.log(num);
+    //创建时间间隔函数
+    var t=setInterval(fn,1000);
+    function fn() {
+        num--;
+        if (num==0){
+            //清除时间间隔函数
+            clearInterval(t);
+        }
+        //改变span中的数字
+        span.innerHTML=num;
+    }
+    password.onblur=function () {
+        if (phone.value!=="" && password.value!=="" && yanzheng.value!==""){
+            ture.style.backgroundColor="#0ecf98";
+        }
+    }
+
+	
+</script>
