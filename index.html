@@ -15,9 +15,9 @@
 	    <input type="password"  placeholder="请输入密码" class="password">
 	    <div class="yanzhengma">获取验证码</div>
 		<div class="daojishi"><span>60</span>s</div>
-		<a href="denglu.html"><div class="ture">
+		<div class="ture">
 	    	<i class="iconfont icon-dui"></i>
-	    </div></a>
+	    </div>
 	    <a href="denglu.html"><div class="denglu">登录</div></a>
 	</header>
 </body>
@@ -31,25 +31,32 @@
 	let yanzheng=document.querySelector(".yanzheng");
 	let password=document.querySelector(".password");
 	console.log(phone,yanzheng,password);
+    let num=60;
+    console.log(num);
 	yanzhengma.onclick=function () {
 		daojishi.style.display="block";
-    }
-    let num=span.innerHTML;
-    console.log(num);
-    //创建时间间隔函数
-    var t=setInterval(fn,1000);
-    function fn() {
-        num--;
-        if (num==0){
-            //清除时间间隔函数
-            clearInterval(t);
+        var t=setInterval(fn,1000);
+        function fn() {
+            num--;
+            if (num==-1){
+                //清除时间间隔函数
+                clearInterval(t);
+                daojishi.style.display="none";
+                num=60;
+            }
+            //改变span中的数字
+            span.innerHTML=num;
         }
-        //改变span中的数字
-        span.innerHTML=num;
     }
+
     password.onblur=function () {
         if (phone.value!=="" && password.value!=="" && yanzheng.value!==""){
             ture.style.backgroundColor="#0ecf98";
+        }
+    }
+    ture.onclick=function () {
+        if (phone.value!="" && password.value!=""){
+            window.open("denglu.html");
         }
     }
 
