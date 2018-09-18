@@ -165,7 +165,8 @@ header .bo .pic{
 .content ul li h6{
 	font-size: 0.2rem;
 	color: #b6b6b6;
-	line-height: 1.02rem;
+	/*line-height: 1.02rem;*/
+	margin-top: 0.4rem;
 	float: right;
 	margin-right: 0.44rem;
 }
