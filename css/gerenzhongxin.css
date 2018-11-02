@@ -2,7 +2,7 @@
 * @Author: 我的文档
 * @Date:   2018-08-15 16:56:40
 * @Last Modified by:   我的文档
-* @Last Modified time: 2018-09-10 17:41:40
+* @Last Modified time: 2018-11-02 17:51:41
 */
 *{
 	margin: 0;
@@ -10,6 +10,7 @@
 	list-style: none;
 	font-family: "苹方";
 	background-repeat: no-repeat;
+	-webkit-tap-highlight-color:transparent;
 }
 a{
 	text-decoration: none;

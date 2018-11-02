@@ -2,12 +2,13 @@
 * @Author: 我的文档
 * @Date:   2018-08-08 08:50:35
 * @Last Modified by:   我的文档
-* @Last Modified time: 2018-09-10 17:40:27
+* @Last Modified time: 2018-11-02 17:49:54
 */
 *{
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	-webkit-tap-highlight-color:transparent;
 }
 a{
 	text-decoration: none;
